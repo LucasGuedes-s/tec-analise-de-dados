@@ -15,7 +15,8 @@ RUN pip install \
     seaborn \
     scikit-learn \
     plotly \
+    tensorflow \
     jupyter
-    
+
 # Expõe a porta do Jupyter
 EXPOSE 8888
